@@ -25,6 +25,7 @@ export default function componentName() {
       if (book.id === id) {
         return { ...book, title: newTitle };
       }
+      return book;
     });
     setBooks(updatedBooks);
   };
