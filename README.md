@@ -1,8 +1,8 @@
 # Introduction
 
 This is a React Starter Project for use in Stephen Grider's courses on Udemy.
-This is a simple crud app for creating and modyfing books that are stored in a json database server
-and the images placeholders for the books are fetched using axios.
+This is a simple crud app for creating and modyfing books that are stored in a json database server.
+The books are fetched from the json server using axios and the images placeholders for the books are fetched using axios.
 
 # Instructions
 
