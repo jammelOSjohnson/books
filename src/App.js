@@ -5,11 +5,12 @@ import BookList from "./components/BookList";
 import BooksContext from "./context/books";
 
 // Main App component
-export default function componentName() {
+export default function App() {
   const { fetchBooks } = useContext(BooksContext);
   // Effect hook to fetch books when component mounts
   useEffect(() => {
     fetchBooks();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Render the app UI
