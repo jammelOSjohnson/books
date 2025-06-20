@@ -10,8 +10,7 @@ export default function App() {
   // Effect hook to fetch books when component mounts
   useEffect(() => {
     fetchBooks();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [fetchBooks]);
 
   // Render the app UI
   return (
